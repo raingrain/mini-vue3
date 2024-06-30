@@ -3,7 +3,7 @@
     "type": "module",
     "version": "1.0.0",
     "scripts": {
-        "dev": "node scripts/dev.mjs compiler-core -f esm"
+        "dev": "node scripts/dev.js compiler-core -f esm"
     },
     "devDependencies": {
         "esbuild": "^0.21.5",
