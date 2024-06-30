@@ -5,7 +5,7 @@ import { createRequire } from "module";
 import esbuild from "esbuild";
 
 // 这个文件会帮我们打包packages下的模块，最终打包出js文件
-// node dev.mjs 要打包的名字 -f 打包的格式 === argv.slice(2)
+// node dev.js 要打包的名字 -f 打包的格式 === argv.slice(2)
 
 const args = minimist(process.argv.slice(2)); // node中的命令函参数通过process 来获取 process.argv
 
