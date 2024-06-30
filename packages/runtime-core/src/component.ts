@@ -1,5 +1,5 @@
-import { proxyRefs, reactive } from "@vue/reactivity";
-import { hasOwn, isFunction, ShapeFlags } from "@vue/shared";
+import { proxyRefs, reactive } from "@mini-vue3/reactivity";
+import { hasOwn, isFunction, ShapeFlags } from "@mini-vue3/shared";
 
 export function createComponentInstance(vnode, parent) {
     const instance = {

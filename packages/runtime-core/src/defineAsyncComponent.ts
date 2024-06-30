@@ -1,6 +1,6 @@
-import { ref } from "@vue/reactivity";
+import { ref } from "@mini-vue3/reactivity";
 import { h } from "./h";
-import { isFunction } from "@vue/shared";
+import { isFunction } from "@mini-vue3/shared";
 
 export function defineAsyncComponent(options) {
     if (isFunction(options)) {

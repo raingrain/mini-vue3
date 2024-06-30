@@ -1,4 +1,4 @@
-import { PatchFlags } from "@vue/shared";
+import { PatchFlags } from "@mini-vue3/shared";
 import {
     createCallExpression,
     createObjectExpression,

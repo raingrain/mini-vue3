@@ -27,7 +27,7 @@
         "baseUrl": ".",
         "paths": {
             // *代表任意路径
-            "@vue/*": [
+            "@mini-vue3/*": [
                 "packages/*/src"
             ]
         }

@@ -1,4 +1,4 @@
-import { isFunction, isObject, isString, ShapeFlags } from "@vue/shared";
+import { isFunction, isObject, isString, ShapeFlags } from "@mini-vue3/shared";
 import { isTeleport } from "./components/Teleport";
 
 export const Text = Symbol("Text");

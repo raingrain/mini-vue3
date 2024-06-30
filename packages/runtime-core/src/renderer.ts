@@ -1,7 +1,7 @@
-import { ShapeFlags } from "@vue/shared";
+import { ShapeFlags } from "@mini-vue3/shared";
 import { createVnode, Fragment, isSameVnode, Text } from "./createVnode";
 import getSequence from "./seq";
-import { isRef, ReactiveEffect } from "@vue/reactivity";
+import { isRef, ReactiveEffect } from "@mini-vue3/reactivity";
 import { queueJob } from "./scheduler";
 import { createComponentInstance, setupComponent } from "./component";
 import { invokeArray } from "./apiLifecycle";

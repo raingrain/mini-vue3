@@ -1,5 +1,5 @@
 {
-    "name": "@vue/runtime-core",
+    "name": "@mini-vue3/runtime-core",
     "version": "1.0.0",
     "module": "dist/runtime-core.esm-bundler.js",
     "unpkg": "dist/runtime-core.global.js",
@@ -13,7 +13,7 @@
         ]
     },
     "dependencies": {
-        "@vue/reactivity": "workspace:*",
-        "@vue/shared": "workspace:*"
+        "@mini-vue3/reactivity": "workspace:*",
+        "@mini-vue3/shared": "workspace:*"
     }
 }

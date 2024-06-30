@@ -1,4 +1,4 @@
-import { isObject } from "@vue/shared";
+import { isObject } from "@mini-vue3/shared";
 import { createVnode, isVnode } from "./createVnode";
 
 export function h(type, propsOrChildren?, children?) {

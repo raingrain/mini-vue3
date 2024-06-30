@@ -1,5 +1,5 @@
 {
-    "name": "@vue/reactivity",
+    "name": "@mini-vue3/reactivity",
     "version": "1.0.0",
     "module": "dist/reactivity.esm-bundler.js",
     "unpkg": "dist/reactivity.global.js",
@@ -13,6 +13,6 @@
         ]
     },
     "dependencies": {
-        "@vue/shared": "workspace:*"
+        "@mini-vue3/shared": "workspace:*"
     }
 }

@@ -20,31 +20,31 @@ importers:
 
   packages/compiler-core:
     dependencies:
-      '@vue/shared':
+      '@mini-vue3/shared':
         specifier: workspace:*
         version: link:../shared
 
   packages/reactivity:
     dependencies:
-      '@vue/shared':
+      '@mini-vue3/shared':
         specifier: workspace:*
         version: link:../shared
 
   packages/runtime-core:
     dependencies:
-      '@vue/reactivity':
+      '@mini-vue3/reactivity':
         specifier: workspace:*
         version: link:../reactivity
-      '@vue/shared':
+      '@mini-vue3/shared':
         specifier: workspace:*
         version: link:../shared
 
   packages/runtime-dom:
     dependencies:
-      '@vue/runtime-core':
+      '@mini-vue3/runtime-core':
         specifier: workspace:^
         version: link:../runtime-core
-      '@vue/shared':
+      '@mini-vue3/shared':
         specifier: workspace:*
         version: link:../shared
 

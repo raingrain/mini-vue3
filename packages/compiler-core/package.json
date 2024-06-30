@@ -1,5 +1,5 @@
 {
-    "name": "@vue/compiler-core",
+    "name": "@mini-vue3/compiler-core",
     "version": "1.0.0",
     "module": "dist/compiler-core.esm-bundler.js",
     "unpkg": "dist/compiler-core.global.js",
@@ -13,7 +13,7 @@
         ]
     },
     "dependencies": {
-        "@vue/shared": "workspace:*"
+        "@mini-vue3/shared": "workspace:*"
     }
 }
   
